@@ -1,0 +1,4 @@
+Check,Rule,Alias,Serverity,File,Line,Message
+NEED,Rule_A,Overflow,Warning,../source/sample/sample.v,10,"This is Overflow"
+NEED,Rule_B,WidthMismatch,Error,../source/sample/sample.v,5,"This is WidthMismatch"
+NEED,Rule_C,FatalProblem,Fatal,../source/sample/sample.v,1,"This is Fatal problem"

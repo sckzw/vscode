@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Spyglass problem matcher",
+            "type": "shell",
+            "command": "type ${file}",
+            "problemMatcher": {
+                "owner": "verilog",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                  "kind": "location",
+                  "regexp": "^(.*),(.*),(.*),(.*),(.*),(\\d+),(.*)$",
+                  "file": 5,
+                  "line" : 6,
+                  //"column": 4,
+                  "severity": 4,
+                  "message": 7,
+                  "code": 2
+                }
+              }
+        }
+    ]
+}

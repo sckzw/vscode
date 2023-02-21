@@ -8,7 +8,7 @@ module SAMPLE(
     input [3:0] PSTRB,
     input [31:0] PWDATA,
     output PREADY,
-    output [31:0] PRDATA,
+    output [31:0] PRDATA
 );
 
 
@@ -16,5 +16,5 @@ module SAMPLE(
 
 
 
-endmodule
+endm
 

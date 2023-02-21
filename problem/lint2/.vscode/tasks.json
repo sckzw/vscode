@@ -4,11 +4,11 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "lint1 problem matcher",
+        "label": "Lint2 problem matcher",
         "type": "shell",
         "command": "type ${file}",
         "problemMatcher": {
-          "owner": "lint1",
+          "owner": "lint2",
           "fileLocation": [
             "relative",
             "${workspaceFolder}"
@@ -18,7 +18,7 @@
             "regexp": "^(.*),(.*),(.*),(.*),(.*),(\\d+),(.*)$",
             "file": 5,
             "line": 6,
-            //"severity": 4,
+            //"severity": 9,
             "code": 3,
             "message": 7,
             "column": 8

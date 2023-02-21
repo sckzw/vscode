@@ -1,0 +1,4 @@
+Check,Rule,Alias,Serverity,File,Line,Message
+NEED,rule_d,Verilog-2001,Info,../source/sample/sample.v,2,"This is Verilog-2001"
+NEED,rule_e,For-loop,Recommended,../source/sample/sample.v,3,"This is For-loop"
+NEED,rule_f,ErrorProblem,Error,../source/sample/sample.v,4,"This is Error problem"

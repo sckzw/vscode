@@ -6,7 +6,7 @@
       {
         "label": "Lint2 problem matcher",
         "type": "shell",
-        "command": "type ${file}",
+        "command": "cat ${file}",
         "problemMatcher": {
           "owner": "lint2",
           "fileLocation": [

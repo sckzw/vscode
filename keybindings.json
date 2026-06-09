@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "prevBlankLine",
+      "select": false
+    }
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "nextBlankLine",
+      "select": false
+    }
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "prevBlankLine",
+      "select": true
+    }
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "nextBlankLine",
+      "select": true
+    }
+  }
+]
